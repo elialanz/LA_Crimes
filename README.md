@@ -1,6 +1,5 @@
 **Link →** Link Will Be Inserted Here
 
-
 ## 📊 Los Angeles Crime Analysis (2020)
 
 ### 1. Project Overview
@@ -10,12 +9,16 @@ Using official LAPD crime data, the analysis focuses on identifying temporal tre
 
 The project follows a structured data analytics workflow, including data profiling, cleaning, feature engineering, exploratory analysis, and visualisation.
 
+-------------------------
+
 ### 2. Objectives
 
 - Understand **when** crimes most frequently occur during 2020
 - Identify **where** crime is concentrated across Los Angeles areas
 - Analyse **what types of crime** are most prevalent and how they differ by time and location
 - Combine time, location, and crime characteristics to uncover meaningful patterns
+
+-------------------------
 
 ### 3. Data Source
 
@@ -25,12 +28,16 @@ The project follows a structured data analytics workflow, including data profili
 - **Observations:** ~986,000 crime reports
 - **Unit of Analysis:** Individual reported crime incidents
 
+-------------------------
+
 ### 4. Tools & Technologies
 
 - **Python** (pandas, numpy): data cleaning, transformation, and analysis
 - **Jupyter Notebook**: exploratory analysis and documentation
 - **Tableau**: data visualisation and spatial analysis
 - **GitHub**: version control and project documentation
+
+-------------------------
 
 ### 5. Methodology
 
@@ -57,6 +64,8 @@ Examined distributions of crime types, premises, and weapon involvement
 Built charts and maps to highlight key patterns
 Interpreted results with attention to data limitations and context
 
+-------------------------
+
 ### 6. Key Insights (Summary)
 
 - Crime frequency varies significantly by **time of day and month** within 2020
@@ -65,11 +74,15 @@ Interpreted results with attention to data limitations and context
 - Crime patterns differ when time, location, and crime type are analysed together
 (Detailed insights are presented in the analysis notebooks and dashboards.)
 
+-------------------------
+
 ### 7. Limitations
 
 - The analysis is limited to **reported crimes** and may not reflect unreported incidents
 - Only **one year (2020)** of data is analysed, so findings describe intra year patterns rather than long term trends
 - Some victim and weapon related fields contain substantial missing data and were used cautiously
+
+-------------------------
 
 ### 8. Future Improvements
 
