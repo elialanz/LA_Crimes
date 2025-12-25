@@ -6,8 +6,8 @@
 
 ### 1. Project Overview
 
-This project analyses reported crime incidents in Los Angeles during **2020** to explore how crime patterns vary across **time, geographic locations, and crime types.**
-Using official LAPD crime data, the analysis focuses on identifying temporal trends, spatial concentrations, and dominant crime characteristics within a single year, providing a detailed snapshot of crime dynamics during 2020.
+This project analyses reported crime incidents in Los Angeles **from 2020 to 2023** to explore how crime patterns vary across **time, geographic locations, and crime types.**
+Using official LAPD crime data, the analysis focuses on identifying temporal trends, spatial concentrations, and dominant crime characteristics, providing a detailed snapshot of crime dynamics during three years.
 
 The project follows a structured data analytics workflow, including data profiling, cleaning, feature engineering, exploratory analysis, and visualisation.
 
@@ -15,7 +15,7 @@ The project follows a structured data analytics workflow, including data profili
 
 ### 2. Objectives
 
-- Understand **when** crimes most frequently occur during 2020
+- Understand **when** crimes most frequently occur during 2020-2023
 - Identify **where** crime is concentrated across Los Angeles areas
 - Analyse **what types of crime** are most prevalent and how they differ by time and location
 - Combine time, location, and crime characteristics to uncover meaningful patterns
@@ -24,10 +24,10 @@ The project follows a structured data analytics workflow, including data profili
 
 ### 3. Data Source
 
-- **Dataset:** Crime Data from 2020 to Present
-- **Source:** Kaggle (originally from LAPD Open Data)
-- **Scope Used:** Records from the year **2020 only**
-- **Observations:** ~986,000 crime reports
+- **Dataset:** Crime Data from 2020 to 2023
+- **Source:** Kaggle and LACity DataHub
+- **Scope Used:** Records from the year **2020 to 2023**
+- **Observations:** ~900K crime reports
 - **Unit of Analysis:** Individual reported crime incidents
 
 -------------------------
@@ -70,7 +70,7 @@ Interpreted results with attention to data limitations and context
 
 ### 6. Key Insights (Summary)
 
-- Crime frequency varies significantly by **time of day and month** within 2020
+- Crime frequency varies significantly by **time of day and month** within the timeframe
 - Certain Los Angeles areas consistently report higher concentrations of crime
 - Property related crimes dominate reported incidents
 - Crime patterns differ when time, location, and crime type are analysed together
@@ -81,13 +81,11 @@ Interpreted results with attention to data limitations and context
 ### 7. Limitations
 
 - The analysis is limited to **reported crimes** and may not reflect unreported incidents
-- Only **one year (2020)** of data is analysed, so findings describe intra year patterns rather than long term trends
 - Some victim and weapon related fields contain substantial missing data and were used cautiously
 
 -------------------------
 
 ### 8. Future Improvements
 
-- Extend the analysis to multiple years for trend comparison
 - Integrate socioeconomic or demographic data for deeper contextual insights
 - Incorporate external spatial boundaries (e.g. census or LAPD polygons) for enhanced mapping
