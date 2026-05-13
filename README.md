@@ -89,3 +89,9 @@ Interpreted results with attention to data limitations and context
 
 - Integrate socioeconomic or demographic data for deeper contextual insights
 - Incorporate external spatial boundaries (e.g. census or LAPD polygons) for enhanced mapping
+
+## About
+
+Built by **Elia Lanz**, a freelance data analyst specialising in [decision focused operational dashboards](https://www.elialanz.com/dashboard-service/), retail, transport, booking-based services, and e-commerce.
+
+[See how I work with clients →](https://www.elialanz.com/dashboard-service/) · [Other data services I offer →](https://www.elialanz.com/hire-me/) · [elialanz.com](https://www.elialanz.com)
